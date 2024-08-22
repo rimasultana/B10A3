@@ -43,7 +43,7 @@
             <a class="text-2xl md:text-5xl font-bold">Rinterio</a>
           </div>
 
-          <div class="navbar-center hidden lg:flex">
+          <div class="navbar-center hidden md:hidden lg:flex">
             <ul
               class="menu menu-horizontal px-1 font-medium text-lg text-gray-500"
             >
@@ -78,21 +78,21 @@
             <div class="flex items-center gap-3">
               <button class="flex space-x-2 text-gray-500">
                 <i
-                  class="fa-solid fa-magnifying-glass border-2 border-gray-200 rounded-full p-2 bg-white shadow"
+                  class="fa-solid fa-magnifying-glass hidden md:block lg:block border-2 border-gray-200 rounded-full p-2 bg-white shadow"
                 ></i>
                 <i
-                  class="fa-solid fa-cart-shopping border-2 border-gray-200 rounded-full p-2 bg-white shadow"
+                  class="fa-solid fa-cart-shopping hidden md:block lg:block border-2 border-gray-200 rounded-full p-2 bg-white shadow"
                 ></i>
               </button>
-              <a class="btn text-xl bg-lime-300 font-bold rounded-full text-center"
+              <a class="btn text-xl bg-lime-300 font-bold rounded-full text-center hidden md:block lg:block md:py-2 "
                 >Book Consult  <i
                 class="fa-solid fa-arrow-right text-xl text-white bg-black rounded-full w-7 h-7 -rotate-45 text-center"
               ></i></a
               >
             </div>
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn  lg:hidden">
-                <i class="fa-solid fa-barsborder-2 border-gray-200 rounded-full p-2 bg-white shadow"></i>
+              <div tabindex="0" role="button" class="lg:hidden text-center p-2 ">
+                <i class="fa-solid fa-bars border-2 w-7 h-7  shadow rounded-full"></i>
               </div>
               <ul
                 tabindex="0"
